@@ -1,0 +1,120 @@
+h1{
+	color:#C77B94;
+	font-family:'mogena' ;
+	background-color: white;
+	border-radius: 160px;
+	width: 500px;
+}
+body{
+	background:#F9E1E4;
+	font-family:'mogena'
+}
+p{
+	color:#A96C80;
+}
+
+h5{
+	color:white;
+	background-color:#F7B5CB;
+	border-radius: 150px;
+	width:400px ;
+	font-size:20px ;
+}
+
+ul{
+	list-style-type:none;
+	overflow: hidden;
+	background-color: #F0C0CF;
+	border-radius: 150px;
+	width:700px;
+	
+}
+
+
+li{
+	float: left;
+
+}
+li a{
+	
+	color:#C77B94;
+	font-size:25px;
+}
+li a{
+	float: left;
+	padding:50px;
+}
+li a:hover{
+	color:white;
+	transform: scale(1.4)
+}
+
+img.me{
+	position: absolute;
+	left:300px;
+}
+
+h6{
+	color:white;
+	font-size:20px;
+	font-family:'muth';
+	background-color:#F4C0D2 ;
+	border-radius: 150px;
+	width:710px ;
+
+}
+
+img.star{ 
+position: fixed;
+bottom:0px;
+}
+
+img.social:hover{
+	opacity: .50;
+	transform: scale(1.2)
+}
+
+img.work{
+	border: 5px solid #CE577F;
+	border-radius: 100px;
+}
+
+
+
+.vid-border-2{
+  border: 5px solid #CE577F;
+  width: 480px;
+  height: 480px;
+  border-radius: 100px;
+  overflow: hidden; 
+}
+
+.vid-border-3{
+  border: 5px solid #CE577F;
+  width: 480px;
+  height: 270px;
+  border-radius: 100px;
+  overflow: hidden;
+ }
+
+ img.bruh:hover{
+ 	 transform: scale(1.2)
+ }
+
+/*These are transitions*/
+
+.container {
+	animation:transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity:0;
+		transform:rotateX(-10deg);
+	}
+	to{
+		opacity:1;
+		transform:rotateX(0deg);
+	}
+}
+
